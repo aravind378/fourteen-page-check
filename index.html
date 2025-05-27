@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer AI Programming</title>
+
+    <!-- style sheet  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- style sheet  -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- google font  -->
+
+    <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/4b4d66f7f6.js" crossorigin="anonymous"></script>
+    <!-- fontawesome  -->
+
+</head>
+
+<body>
+
+
+
+<header>
+
+    <div class="header-container">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="./images/logo.png" alt="Nskc Logo">
+        </a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="What do you want to learn?">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Explore Course
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../abacus/index.html">Abacus</a></li>
+              <li><a class="dropdown-item" href="../vedic-maths/index.html">Vedic Maths</a></li>
+              <li><a class="dropdown-item" href="../bharathanatyam/index.html">Bharathanatyam</a></li>
+              <li><a class="dropdown-item" href="../spoken english/index.html">Spoken English</a></li>
+              <li><a class="dropdown-item" href="../spokenhindi/index.html">Spoken Hindi</a></li>
+              <li><a class="dropdown-item" href="../karate/index.html">Karate</a></li>
+              <li><a class="dropdown-item" href="../silambam/index.html">Silambam</a></li>
+              <li><a class="dropdown-item" href="../skating/index.html">Skating</a></li>
+              <li><a class="dropdown-item" href="../yoga/index.html">Yoga</a></li>
+              <li><a class="dropdown-item" href="../chess/index.html">Chess</a></li>
+              <li><a class="dropdown-item" href="../computercourse/index.html">Computer Class</a></li>
+              <li><a class="dropdown-item" href="../drawing/index.html">Drawing</a></li>
+              <li><a class="dropdown-item" href="../reading practice/index.html">Reading Practice</a></li>
+              <li><a class="dropdown-item" href="../hand writting/index.html">Hand Writing</a></li>
+              <li><a class="dropdown-item" href="#">Kattral / Karpiththal</a></li>
+              <li><a class="dropdown-item" href="../flute/index.html">Flute</a></li>
+              <li><a class="dropdown-item" href="../vocals&carnatic/index.html">Vocal / Carnatic</a></li>
+              <li><a class="dropdown-item" href="../western music/index.html">Western Music</a></li>
+              <li><a class="dropdown-item" href="../sloga practice/index.html">Sloga Practice</a></li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li class="nav-item dropend">
+                <a class="nav-link dropdown-toggle" href="../student-signup/index.php" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Enquiry Now
+                </a>
+
+              </li>
+            </ul>
+          </li>
+          <li><a href="../tution/index.html">Tution</a></li>
+
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <a href="../tutor/index.php" class="free-lms">Become a Tutor</a>
+        <a href="../franchaise/index.html" class="franchaise">Franchise</a>
+        <a href="../student-login/index.php" class="login-btn"> Student Log In</a>
+        <a href="../student-signup/index.php" class="signup-btn">Student Sign Up</a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Bar -->
+  <div class="mobile-nav">
+    <div class="mob-section">
+
+      <img src="./images/logo.png" alt="nskc-academy" width=70px>
+      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+        aria-controls="offcanvasWithBothOptions"><img src="./images/menu-bar.png"></button>
+    </div>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="./images/logo.png"
+            width="50px">&nbsp;&nbsp;NSKC ACADEMY</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+        <div class="header-mob-link">
+          <a href="../course/index.html">&nbsp;<i class="fa-solid fa-book"></i>&nbsp;&nbsp;Explore Course</a>
+          <a href="../tution/index.html"><i class="fa-solid fa-chalkboard-user"></i>&nbsp;Tution Center</a>
+          <a href="./daycare/index.html">&nbsp;<i class="fa-solid fa-baby"></i>&nbsp;&nbsp;Day Care</a>
+        </div>
+        <div class="header-mob-buttons">
+          <a href="../tutor/index.php" class="free-lms">Become a Tutor</a>
+          <a href="../franchaise/index.html" class="franchaise">Franchise</a>
+          <a href="../student-login/index.php" class="login-btn">Student Log In</a>
+          <a href="../student-signup/index.php" class="signup-btn">Student Sign Up</a>
+        </div><br>
+        <p><i class="fa-solid fa-location-dot"></i> &nbsp;KALUGUMALAI , THIRUVENGADAM</p>
+        <p><i class="fa-solid fa-phone"></i> &nbsp; 99 43 66 76 76 </p>
+        <br>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.063268870648!2d77.70126937483448!3d9.148758790917416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06a59ba7dc7205%3A0x4c0343ced252ab91!2sNethrashree%20kids%20%26%20cultural%20academy!5e0!3m2!1sen!2sin!4v1733131377344!5m2!1sen!2sin"
+          width="285" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+
+    
+
+
+    <!-- parent start  -->
+    <div class="parent">
+
+
+        <div class="heading">
+            <button class="heading-btn" id="all-btn" onclick="course()">All Courses</button>
+            <button class="heading-btn" id="design-btn" onclick="design()">Designing Courses</button>
+            <button class="heading-btn" id="codes-btn" onclick="codes()">Programming Courses</button>
+            <button class="heading-btn" id="other-btn" onclick="other()">Other Courses</button>
+        </div>
+
+
+
+        <!-- for Design start -->
+        <div class="for-design container show"  id="for-designing">
+
+            <p class="for-Design-heading">For Design</p>
+
+            <!-- Design boxes  -->
+            <div class="Design-boxes">
+            
+                <!-- four Design start -->
+                <div class="four-Design">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="Design-text">UI / UX Design Crash Course</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">3.5K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./UI & UX Design Crash Course/index.html">Join Now</a>
+                </div>
+
+                <div class="four-Design">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="basic">Canva for Creators</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">1.9K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./Canva for Creators/index.html">Join Now</a>
+                </div>
+
+                <div class="four-Design">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="basic">No-Code Website Builders</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">2.8K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./No-Code Website Builders/index.html">Join Now</a>
+                </div>
+                <!-- four Design End  -->
+
+            </div>
+            <!-- Design boxes end -->
+
+        </div>
+        <!-- for Design end -->
+
+
+        <!-- for programming start  -->
+        <div class="for-programming container show" id="for-programming">
+
+            <p class="for-programming-heading"> For programming</p>
+
+            <!-- intermediate boxes -->
+            <div class="programming-boxes">
+
+                <!-- four programming start -->
+                <div class="four-programming">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="programming-text">PHP Quick Sprint</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">8.5K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./PHP Quick Sprint/index.html">Join Now</a>
+                </div>
+
+                <div class="four-programming">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="programming-text">Web Warrior Bootcamp</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">10.1K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./Web Development/index.html">Join Now</a>
+                </div>
+
+                <div class="four-programming">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="programming-text">Javascript Mastery</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">2.5K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./Javascript Mastery/index.html">Join Now</a>
+                </div>
+
+                <div class="four-programming">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="programming-text">Python Power-Up</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">2.2K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./Python Power-Up/index.html">Join Now</a>
+                </div>
+
+                <div class="four-programming">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="programming-text">React Rabid Run</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">3K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./React Rapid Run/index.html">Join Now</a>
+                </div>
+
+                <div class="four-programming">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="programming-text">Scratch Program for Kids</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">2.5K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./Scratch Programming for Kids/index.html">Join Now</a>
+                </div>
+
+                <div class="four-programming">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="programming-text">Full Stack Fusion (MERN)</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">5.4K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./Full Stack Fusion (MERN)/index.html">Join Now</a>
+                </div>
+                <!-- four programmings End  -->
+
+            </div>
+            <!-- programming boxes end -->
+
+        </div>
+        <!-- for programming end -->
+
+
+
+        <!-- for Others-pro start -->
+         <div class="for-others container show" id="for-others">
+
+            <p class="for-Others-pro-heading"> For Others</p>
+
+            <!--  Others pro boxes -->
+            <div class="Others-pro-boxes">
+
+                <!-- four Others-pro start -->
+                <div class="four-Others-pro">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="Others-pro-text">Digital Marketing Fundamentals</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">5K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="Digital Marketing Fundamentals/index.html">Join Now</a>
+                </div>
+
+                <div class="four-Others-pro">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="Others-pro-text">Excel Pro Mastery</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">8.1K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./Excel Pro Mastery/index.html">Join Now</a>
+                </div>
+
+                <div class="four-Others-pro">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="Others-pro-text">Computer Fundamental Crash Course</p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">1.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">10K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./Computer Fundamentals Crash Course/index.html">Join Now</a>
+                </div>
+
+                <div class="four-Others-pro">
+                    <div class="image">
+                        <img src="./Images/AI-1.jpg" alt="IMAGE*">
+                        <button class="heart"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <p class="Others-pro-text">AI + ML Kickstart <span>(python based)</span></p>
+                    <p class="certificate-course">Online Certificate Course</p>
+                    <div class="three-elements">
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-calendar-week"></i></p>
+                            <p class="element-text">12W</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-clock"></i></p>
+                            <p class="element-text">3.5Hr</p>
+                        </div>
+                        <div class="element">
+                            <p class="icons"><i class="fa-solid fa-eye"></i></p>
+                            <p class="element-text">7.3K</p>
+                        </div>
+                    </div>
+                    <a class="join-now" href="./AI  & ML Kickstart (Python Based)/index.html">Join Now</a>
+                </div>
+                <!-- four Others pro End  -->
+
+            </div>
+            <!-- Others pro boxes end -->
+
+        </div>
+        <!-- for Others pro end -->
+
+    </div>
+    <!-- parent end  -->
+
+
+
+
+
+
+    
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>Explore More</h4>
+          <ul>
+            <li><a href="../daycare/index.html">Day Care</a></li>
+            <li><a href="../course/index.html">Skill Development</a></li>
+            <li><a href="../tution/index.html">Tution</a></li>
+            <li><a href="../internship/index.html">Internship</a></li>
+            <li><a href="#">Online Mock Test</a></li>
+            <li><a href="../free/fclass.php">Free Classes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>NSKC'S</h4>
+          <ul>
+            <li><a href="../franchaise/index.html">Franchise</a></li>
+            <li><a href="../tutor/index.html">Become a Tutor</a></li>
+            <li><a href="#">TIN</a></li>
+            <li><a href="../tutor-profile/index.html">Our Creators</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Others</h4>
+          <ul>
+            <li><a href="#">About US</a></li>
+            <li><a href="../terms/index.html">Terms & Conditions</a></li>
+            <li><a href="../privacy/index.html">Privacy & Policy</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="../faq/index.html">FAQ</a></li>
+            <li><a href="#">Customer Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="tel:9943667676"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;99 43 66 76 76</a></li>
+            <li><a href="mailto:nskcacademy@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;nskcacademy@gmail.com</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<b>Head Office</b><br>56, Middle Street,Kalugumalai - 628 552.</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<b>Branch Office</b><br>68, West Street,Kalugumalai Road, Near Padma Clinic, Thiruvengadam.</a></li>
+            
+            
+          </ul>
+        </div>
+
+
+        <div class="footer-bottom">
+          <p>© NSKC 2024</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100077476391143"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/nethrashree_academy/"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@nskcacademy/"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+  <!-- Boostrap Script Link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+
+
+
+<script>
+    var designs = document.getElementById("for-designing");
+    var program = document.getElementById("for-programming");
+    var others = document.getElementById("for-others");
+
+    var all_btn = document.getElementById("all-btn");
+    var design_btn = document.getElementById("design-btn");
+    var codes_btn = document.getElementById("codes-btn");
+    var others_btn = document.getElementById("other-btn");
+
+    function course(){
+        program.style.display = "block";
+        designs.style.display = "block";
+        others.style.display = "block";
+        all_btn.style.borderBottom = "2px solid #f39c12";
+        design_btn.style.borderBottom = "unset";
+        codes_btn.style.borderBottom = "unset";
+        others_btn.style.borderBottom = "unset";
+        
+    }
+
+    function design(){
+        program.style.display = "none";
+        others.style.display = "none";
+        designs.style.display = "unset";
+        all_btn.style.borderBottom = "unset";
+        design_btn.style.borderBottom = "2px solid #f39c12";
+        codes_btn.style.borderBottom = "unset";
+        others_btn.style.borderBottom = "unset";
+    }
+
+    function codes(){
+        designs.style.display = "none";
+        program.style.display = "unset";
+        others.style.display = "none";
+        all_btn.style.borderBottom = "unset";
+        design_btn.style.borderBottom = "unset";
+        codes_btn.style.borderBottom = "2px solid #f39c12";
+        others_btn.style.borderBottom = "unset";
+    }
+
+    function other(){
+        program.style.display = "none";
+        designs.style.display = "none";
+        others.style.display = "unset";
+        all_btn.style.borderBottom = "unset";
+        design_btn.style.borderBottom = "unset";
+        codes_btn.style.borderBottom = "unset";
+        others_btn.style.borderBottom = "2px solid #f39c12";
+    }
+</script>
+
+
+</html>
